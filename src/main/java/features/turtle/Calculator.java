@@ -17,7 +17,7 @@ public class Calculator implements features.Calculator{
 
 		BigDecimal result = calOperator(strToken,firstValue, secondValue);
 		//System.out.println(result);
-		return result.toString();
+		//return result.toString();
 	}
 
 	private String getOperator(String arg_fomula)
